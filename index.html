@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DU Alamni Association website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 h-screen p-8">
+
+  <!-- Header and Navbar -->
+   <hr style="height: 6px; background-color: black;">
+   <header class="bg-white p-4 sm:items-center ">
+      <!-- Logo -->
+      <div class="flex sm:items-center md:items-center space-x-1">
+        <img src="./image/logo1.png" alt="Logo" class="h-10 w-10">
+        <h1 class="text-xl font-bold text-gray-800">DHAKA UNIVERSITY ALAMNI ASSOCIATION</h1>
+      </div>
+   </header>    
+   <div class="container mx-auto p-4 border-8 sm:border-white bg-blue-900 flex justify-between items-center">
+      <!-- Hamburger Menu (Mobile) -->
+      <button id="menu-toggle" class="sm:hidden text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <!-- Navbar Links -->
+      <nav id="navbar-menu" class=" hidden sm:items-center sm:flex space-x-4">
+        <a href="#" class="text-white hover:text-red-500 hover:underline">Home</a>
+        <a href="#" class="text-white hover:text-red-500 hover:underline">Organization</a>
+        <a href="news.html" target="_blank" class="text-white hover:text-red-500 hover:underline">News</a>
+        <a href="#" class="text-white hover:text-red-500 hover:underline">About Us</a>
+        <a href="#" class="text-white hover:text-red-500 hover:underline">Contact Us</a>
+      </nav>
+    </div>
+
+    <!-- Dropdown Menu for Mobile -->
+    <nav id="mobile-menu" class="navbar-menu hidden sm:hidden flex flex-col space-y-2 p-4 bg-white">
+      <a href="#" class="text-white hover:text-red-500">Home</a>
+      <a href="#" class="text-white hover:text-red-500">Organization</a>
+      <a href="news.html" target="_blank" class="text-white hover:text-red-500">News</a>
+      <a href="#" class="text-white hover:text-red-500">About Us</a>
+      <a href="#" class="text-white hover:text-red-500">Contact Us</a>
+    </nav>
+  
+  
+    <!-- mainpage image start-->  
+     <!-- <section class="bg-white shadow-lg p-2 ">
+      <div class="container mx-auto p-0">
+        <img src="./image/mainpage_pic.jpg" alt="main page image" class="h-full w-full object-cover">
+      </div>
+     </section> -->
+
+     <section class="bg-white shadow-lg p-2">
+      <div class="container mx-auto p-2 md:p-2">
+        <img src="./image/mainpage_pic.jpg" alt="main page image" class="h-full w-full object-cover">
+      </div>
+    </section>
+    
+    
+    
+     <!--mainpage image end-->
+  <!-- News Articles -->
+  <section class="container mx-auto my-2">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Article 1 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img class="w-full h-56 object-cover" src="./image/dui4.jpg" alt="News Image">
+        <div class="p-4">
+          <h2 class="text-2xl font-bold">Our History</h2>
+          <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius lorem vel dui egestas, sed vehicula turpis interdum.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-700 mt-4 block">Read More</a>
+        </div>
+      </div>
+      
+      <!-- Article 2 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img class="w-full h-56 object-cover" src="./image/du1.avif" alt="News Image">
+        <div class="p-4">
+          <h2 class="text-2xl font-bold">Our Achievements</h2>
+          <p class="text-gray-600 mt-2">Vestibulum sit amet metus a risus tincidunt tincidunt. Sed aliquet ligula ac orci ullamcorper, non venenatis libero suscipit.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-700 mt-4 block">Read More</a>
+        </div>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img class="w-full h-56 object-cover" src="./image/du3.avif" alt="News Image">
+        <div class="p-4">
+          <h2 class="text-2xl font-bold">Our Future Plan</h2>
+          <p class="text-gray-600 mt-2">Nunc a velit ut lorem tincidunt viverra. Curabitur non tortor sit amet arcu pharetra tincidunt.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-700 mt-4 block">Read More</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow mt-8">
+    <div class="container bg-gray-800 mx-auto p-4 text-center text-white">
+      &copy; 2024 News Portal. All rights reserved by DUAA.
+    </div>
+  </footer>
+
+</body>
+</html>

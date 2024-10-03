@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alamni Association website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 h-screen p-8">
+
+  <!-- Header and Navbar -->
+   <header class="bg-white p-4 sm:items-center ">
+      <!-- Logo -->
+      <div class="flex sm:items-center md:items-center space-x-2">
+        <img src="./image/logo1.png" alt="Logo" class="h-10 w-10">
+        <h1 class="text-xl font-bold text-gray-800">DHAKA UNIVERSITY ALAMNI ASSOCIATION</h1>
+      </div>
+   </header>    
+   <div class="container mx-auto p-4 border-8 sm:border-white bg-blue-900 flex justify-between items-center">
+      <!-- Hamburger Menu (Mobile) -->
+      <button id="menu-toggle" class="sm:hidden text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <!-- Navbar Links -->
+      <nav id="navbar-menu" class=" hidden sm:items-center sm:flex space-x-4">
+        <a href="index.html" target="_blank" class="text-white hover:text-red-500 hover:underline">Home</a>
+        <a href="#" class="text-white hover:text-red-500 hover:underline">Organization</a>
+        <a href="news.html" target="_blank" class="text-white hover:text-red-500 hover:underline">News</a>
+        <a href="#" class="text-white hover:text-red-500 hover:underline">About Us</a>
+        <a href="#" class="text-white hover:text-red-500 hover:underline">Contact Us</a>
+      </nav>
+    </div>
+
+    <!-- Dropdown Menu for Mobile -->
+    <nav id="mobile-menu" class="navbar-menu hidden sm:hidden flex flex-col space-y-2 p-4 bg-white">
+      <a href="index.html" target="_blank" class="text-white hover:text-red-500">Home</a>
+      <a href="#" class="text-white hover:text-red-500">Organization</a>
+      <a href="news.html" target="_blank" class="text-white hover:text-red-500">News</a>
+      <a href="#" class="text-white hover:text-red-500">About Us</a>
+      <a href="#" class="text-white hover:text-red-500">Contact Us</a>
+    </nav>
+  
+
+  <!-- Main Content (Cards) -->
+  <main class="container mx-auto">
+    <div class="bg-white p-3">
+      <h1 class="text-2xl font-semibold">DUAA Programs News</h2>
+        <h5>The Day to Day Activities of Dhaka University Alumni Association</h5>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="https://www.du.ac.bd/" target="_blank"><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/DU100-Y .jpg" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank" ><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/IMG2.jpg" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank" ><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/dui1.jpg" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Repeat for more cards -->
+      <!-- Card 4 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank" ><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/dui4.jpg" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank" ><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/du3.avif" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank" ><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/IMG2.jpg" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Card 7 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank" ><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/du1.avif" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Card 8 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank"><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/dui1.jpg" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+
+      <!-- Card 9 -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="p-4">
+          <p class="text-md mb-2 text-gray-800">News</p>
+          <a href="#" target="_blank"><h3 class="text-2xl mb-4 hover:text-blue-800 hover:underline">Brief description of the article. Lorem ipsum dolor sit amet...</h3></a>
+          <p class="text-gray-600 italic font-semibold text-md">-MAY 16,2024  0 COMMENT</p>
+        </div>
+        <img src="./image/du3.avif" alt="Article Image" class="rounded-t-lg w-full">
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow mt-8">
+    <div class="container bg-gray-800 mx-auto p-4 text-center text-white">
+      &copy; 2024 News Portal.  All rights reserved by DUAA.
+    </div>
+  </footer>
+
+</body>
+</html>
